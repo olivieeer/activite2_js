@@ -1,0 +1,43 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+span {
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.lien {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.element {
+	display:  inline-block;
+}
+#formulaire {
+    display: none;
+}
+#form {
+    display: inline-block;
+}
+#btnAjout {
+    display: inline-block;
+}
+input {
+	border-radius: 5px;
+}
+#success {
+	display: none;
+	background-color: #A9F5F2;
+	height:  100px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	text-align: center;
+	color: #428bca;
+	vertical-align: middle;
+	padding-top: 15px;
+}
